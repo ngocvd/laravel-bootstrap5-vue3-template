@@ -132,6 +132,7 @@
             </footer>
         </div>
     </div>
+    <scroll-to-top />
     <script>
         var myMixin = {
             data() {
