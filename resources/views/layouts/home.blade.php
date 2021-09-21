@@ -113,7 +113,7 @@
             </footer>
         </div>
     </div>
-    
+    <scroll-to-top />
     @yield('custom_js')
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('js/custom.js') }}"></script>
