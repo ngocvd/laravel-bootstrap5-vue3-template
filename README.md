@@ -10,7 +10,7 @@ Có 3 cách dùng vue:
 - Không sử dụng webpack.
 - Viết động, nhưng không tận dụng sức mạnh webpack (khi bản phân phối chưa minify)
 3. Lai giữa 2 cách trên.
-```
+```javascript
 //Trong file blade:
 @section('custom_js')
 <script>
