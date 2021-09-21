@@ -11,7 +11,7 @@ Có 3 cách dùng vue:
 - Viết động, nhưng không tận dụng sức mạnh webpack (khi bản phân phối chưa minify)
 3. Lai giữa 2 cách trên.
 ```javascript
-//Trong file blade:
+//Trong file blade (đặt ngoài thẻ div id="app"):
 @section('custom_js')
 <script>
     var myMixin = {
@@ -44,7 +44,11 @@ const app = createApp({
         ScrollToTop,
     },
     methods: {
+..
 
+
+//gọi hàm: trong blade
+<button @click="canhbao">Alert</button>
 ```
 Cách sử dụng nào hay thì tuỳ bạn sử dụng.
 Mình thấy cách lai này tận dụng cả blade để viết web.
