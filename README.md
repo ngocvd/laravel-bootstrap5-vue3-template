@@ -4,6 +4,7 @@ Bạn có thể thay đổi bằng bootswatch.
 Có 3 cách dùng vue:
 1. Sử dụng webpack (mix).
 - Cách này như chương trình biên dịch.
+- Viết các component lồng nhau, kế thừa nhau. Truyền vào từ blade bằng props.
 - Không tận dụng được web động như php, asp.net.
 2. Sử dụng js hoàn toàn:
 - Không sử dụng webpack.
