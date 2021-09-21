@@ -1,0 +1,11 @@
+This is the way I updated the master branch
+
+This kind of error occurs commonly after deleting the initial code on your project
+
+So, go ahead, first of all, verify the actual remote version, then remove the origin add the comment, and copy the repo URL into the project files.
+
+$ git remote -v
+$ git remote rm origin
+$ git commit -m "your commit"
+$ git remote add origin https://github.com/user/repo.git
+$ git push -f origin master

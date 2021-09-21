@@ -7,6 +7,7 @@ import * as bootstrap from 'bootstrap';
 import StarRating from "vue-star-rating";
 import { BootstrapIconsPlugin } from "bootstrap-icons-vue";
 import Toaster from "@meforma/vue-toaster";
+import ScrollToTop from "./components/ScrollToTop.vue";
 moment.locale("id");
 let numberFormat = function (value) {
     let val = (value / 1).toFixed(0).replace(".", ",");
@@ -16,6 +17,7 @@ const app = createApp({
     mixins: [myMixin],
     components: {
         StarRating,
+        ScrollToTop,
     },
     methods: {
         toast(msg) {
