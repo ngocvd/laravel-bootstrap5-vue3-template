@@ -47,3 +47,4 @@ const app = createApp({
 ```
 Cách sử dụng nào hay thì tuỳ bạn sử dụng.
 Mình thấy cách lai này tận dụng cả blade để viết web.
+Source demo như trên.
